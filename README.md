@@ -46,32 +46,18 @@ Notes:
 ____________________
 Task List 
 
-   | Task List     |     Meeting Dates          | Time Frame    |      
-   |-----------------|:--------------------------:|:-------------:|
-1. | Source Dataset |19 Jan - 22 Jan	/ 23 Jan | 6.30pm |
-2. | Data Cleaning & Merging | 19 Jan - 22 Jan	/ 23 Jan | 6.30pm |
-3. | Data Visualisation | 26 Jan - 29 Jan	/ 30 Jan |  6.30pm |
-4. | Analysing & Report Writing | 30 Jan - 31 Jan	/ 31 Jan | 6.30PM |
-5. |Slides Preparation, Script Writing, Rehearsal | 1-Feb / 1 Feb | 6.30pm |
-6. |Presentation Date | 2nd Feb 2023 | Thursday | 6.30 pm |
+|Task List|Meeting Dates|Time Frame|      
+|-----|-----|----|
+|Source Dataset |19 Jan - 22 Jan / 23 Jan | 6:30pm |
+|Data Cleaning & Merging | 19 Jan - 22 Jan	/ 23 Jan | 6:30pm |
+| Data Visualisation | 26 Jan - 29 Jan	/ 30 Jan |  6.30pm |
+| Analysing & Report Writing | 30 Jan - 31 Jan	/ 31 Jan | 6:30pm |
+|Slides Preparation, Script Writing, Rehearsal | 1-Feb  | 6:30pm |
+|Presentation Date | 2-Feb | 6:30pm |
 
 _________________________
 
 
-Task List	/ Time Frame / Meeting Dates
-1. Source Dataset / 19 Jan - 22 Jan	/ 23 Jan, 6.30pm
-
-2. Data Cleaning & Merging /	23 Jan - 25 Jan / 25 Jan, 6.30pm
-
-3. Data Visualisation / 	26 Jan - 29 Jan	/ 30 Jan, 6.30pm
-
-4. Analysing & Report Writing / 30 Jan - 31 Jan	/ 31 Jan , 6.30pm
-
-5. Slides Preparation, Script Writing, Rehearsal  / 1-Feb / 1 Feb, 6.30pm
-
-6. Presentation Date / 2nd Feb 2023, Thursday 
-
-______________________
 Agenda
 
 23rd Jan, 6.30pm – Source Dataset 
