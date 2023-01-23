@@ -45,6 +45,7 @@ ___________________
 * https://www.slickcharts.com/sp500
 * https://www.kaggle.com/datasets/paultimothymooney/stock-market-data
 * https://www.kaggle.com/datasets/alexanderxela/sp-500-companies
+* https://uwa-data-nov-2022.slack.com/files/U048E13U59T/F04L2P672BD/fs-sp-500.pdf
 ___________________
 
 #### Notes:
