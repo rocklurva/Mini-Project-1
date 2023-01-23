@@ -33,11 +33,12 @@ __________________
 ___________________
 #### Resources 
 
-https://www.marketwatch.com/investing/index/spx/download-data
-https://eodhistoricaldata.com/financial-summary/GSPC.INDX
-https://www.kaggle.com/datasets/priteshraj10/sp-500-companies
-https://www.snowflake.com/snowflake-marketplace/?_sft_dataset-category=financial
-
+* https://www.marketwatch.com/investing/index/spx/download-data
+* https://eodhistoricaldata.com/financial-summary/GSPC.INDX
+* https://www.kaggle.com/datasets/priteshraj10/sp-500-companies
+* https://www.snowflake.com/snowflake-marketplace/?_sft_dataset-category=financial
+* https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?select=sp500_companies.csv
+* https://www.kaggle.com/datasets/guillemservera/sp500-nasdaq-spy-qqq-ohlcv-data?select=SP500.csv
 ___________________
 #### Notes:
 1.	Becareful with linear regression especially when the stock are growing in exponentially, it will be hard to apply
