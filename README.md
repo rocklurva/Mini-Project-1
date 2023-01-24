@@ -1,30 +1,46 @@
 # Mini-Project-1
-
+__________________
 ## Group Members : Jonathan Martinez, Cindy Wong, Mylene Marsden, Christian Torres
 ------------------
 
 ### Main Objective
-We are looking into an Index Fund - S&P500 who has been performing quite well recently and we would like to see the overall trend of this index in between this period of time, pre-Covid (5 years, 10 years) and post-Covid (till 2022). 
+Looking at the trend of one of a popular Index Fund - S&P500 and to analyse if it's worth investing. Our target audience is someone who's looking to invest in this index fund and would like to reduce the risk by having more data of this index fund. 
 
 -------------------
 ### Introduction
-1.	What is Index Fund
-2.	The Index Fund that we are looking at S&P 500
-3.	Set Timeline in our analysis
-•	2000 – 2019
-•	2020 - 2023
--------------------
-### Discussion
-1.	Trend of the index fund according to the set timeline  
-2.	Top 5 performing sectors of S&P500  within the above timeline
-3.	Lowest 5 performing sectors  of S&P500  within the above timeline
-4.	Indicators that we will be using  and the focus our analysis when reviewing individual stocks:-
+1. What is Index Fund & briefly how they work. 
+2. The index fund that we are looking at S&P500
+3. Timeframe that we'll be looking at are from 2000 - 2023
+
+___________________
+### Methodology
+
+1. To have a general summary of S&P500's performance from 2000 to 2023 using line graph \ Closing Price of S&P500 vs Year
+
+2. Pick the time (year) where it performed best and worst from the line graph that we generated in #1, we will then generate
+* pie chart - Amongst the best performed year, we'll identify the sector that outperform and underperform 
+* pie chart - Amongst the worst performed year, we'll identify the sector that outperform and underperform
+
+3. From #2, we'll use box plot to get an overall view of the performance of the best and worst performance company within the sector and also the outliers. 
+
+4. From #1, pick the time (year) where it performed the best and worst, we'll look in depth the closing price per month. Then we'll generate a line graph 
+* Closing Price vs Month of the best performing year / time period
+* Closing Price vs Month of the worst performing year/ time period
+
+5. From #2, we'll use box plot to get an overall view of the best and worst performed company within sector and also the outliers. 
+
+### Measure/ Indicators that we will be using and the focus our analysis when reviewing individual stocks
+The measure that we are using for this analysis:-
+* Closing Price of S&P500
 •	Per / Share
 •	Price/ Earning Ratio
 •	Earning Per Share
 •	Market Capitalisation
 
-5.	Participation of the industries in the index 
+-------------------
+### Discussion
+1.	Trend of the index fund according to the set timeline.  
+2.	Top 5 and Bottom 5 performing sectors of S&P500 of the discussed timeline.
 __________________
 ### Summary
 1. What are the insights ? 
@@ -45,7 +61,7 @@ ___________________
 * https://www.slickcharts.com/sp500
 * https://www.kaggle.com/datasets/paultimothymooney/stock-market-data
 * https://www.kaggle.com/datasets/alexanderxela/sp-500-companies
-* https://uwa-data-nov-2022.slack.com/files/U048E13U59T/F04L2P672BD/fs-sp-500.pdf
+* https://www.spglobal.com/spdji/en/indices/equity/sp-500/#data
 ___________________
 
 #### Notes:
@@ -54,21 +70,26 @@ ___________________
 
 ____________________
 
-|Task List|Meeting Dates|Time Frame|      
+|Meeting Dates | Meeting Time | Task List |
 |-----|-----|----|
-|Source Dataset |19 Jan - 22 Jan / 23 Jan | 6:30pm |
-|Data Cleaning & Merging | 19 Jan - 22 Jan	/ 23 Jan | 6:30pm |
-| Data Visualisation | 26 Jan - 29 Jan	/ 30 Jan |  6.30pm |
-| Analysing & Report Writing | 30 Jan - 31 Jan	/ 31 Jan | 6:30pm |
-|Slides Preparation, Script Writing, Rehearsal | 1-Feb  | 6:30pm |
-|Presentation Date | 2-Feb | 6:30pm |
+|23 Jan, Mon| 1830 | Source Dataset & Discuss the dataset |
+|24 Jan, Tues | 2030 | Discuss the dataset/ information that we'll extract from the dataset/ use for our analysis |
+|25 Jan, Weds | 1900 | Finalise the Methodology and measure that we'll be using & distribute tasks amongst 4 member|
+|26 Jan, Thurs | - | - |
+|27 Jan, Fri | 1900 | Data Cleaning and Merging Datasets |
+|28 Jan, Sat | TBC | Finish Data Cleaning and Merging Datasets/ Prepare Template of Presentation & Start writing Script - Introduction & Methodology|
+|29 Jan, Sun | TBC| Start Visualisation |
+|30 Jan, Mon | TBC | Finish Visualisation |
+|31 Jan, Tues | TBC | Analyse Data (Group) / write up Discussion and Summary |
+|01 Feb, Weds | TBC | Rehearsal & Final Slide Editing |
+|02 Feb, Thurs | 1830 | Presentation Day  |
 
 _________________________
 
-
-### Agenda
-
-23rd Jan, 6.30pm – Source Dataset 
-•	Bring our research together 
-•	Discuss the datasets that we found from the links under research 
-
+### Tasks Distribution 
+- Data Clean and Merge Datasets 
+- Data Visualisation - line graph, pie chart, bar chart, box plot
+- Analysis of the data 
+- Report Writing
+- Create powerpoint / slide preparation 
+- Script writing 
