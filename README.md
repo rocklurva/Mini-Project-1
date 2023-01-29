@@ -32,7 +32,7 @@ The S&P 500 Index, or Standard & Poor's 500 Index, is a market-capitalization-we
 BONUS: Correlation between the S&P500 returns, and inflation rate for goods and services (CPI) in the United States. **Graph: Scatter Plot** & **Statistics**
 
 -------------------
-### Main Resrouces
+### Main Resources
 1. Info about S&P500: https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview
 2. Historical data:
 2.1 S&P 500 Index Historical Data:
