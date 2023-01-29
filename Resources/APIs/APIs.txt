@@ -1,0 +1,15 @@
+Access to financial modeling prep 
+https://site.financialmodelingprep.com/developer/docs/dashboard
+
+The S&P 500 stock market index API
+https://site.financialmodelingprep.com/developer/docs/list-of-sp-500-companies-api/
+
+Stock Quote API
+https://site.financialmodelingprep.com/developer/docs/stock-api/#Python
+
+
+Access to Stockshark
+https://stock-shark.com/developers/dashboard
+
+Stockshark documentation (Get stock data)
+https://studio-ws.apicur.io/sharing/858eb68a-9f2c-4655-aeee-7bf8a8c336fa#/paths/~1api~1v1~1getLiveQuote~1/get
