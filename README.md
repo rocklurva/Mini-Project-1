@@ -4,16 +4,21 @@
 
 ------------------
 ### Objective
-Looking at the historical stock price and returns of the S&P500 stock market index, analyse the performance of its economic sectors in periods of crisis for the last 20 years (2003 – 2023). Then, research what happened in those negative years and identify whether the affected sectors could recover after the crisis. Finally, explore the trends of each sector and their current weight on the index, based on average returns and market capitalisation, to suggest the sectors/companies that are up-trending and potentially worth of investment.
-BONUS: Identify the correlation between the S&P500 returns, and inflation rate for goods and services (CPI) in the United States.
+Looking at the historical stock price, returns, and other relevant information of the S&P500 stock market index:
+
+* Analyse the S&P500 stock price performance from Jan 2003 to Jan 2023, then compare to today's price and run a trenline/regression model to predict price of the stock in 5 years from now.
+* Identify years of positive and negative return of the S&P500 from Jan 2003 to Jan 2023.
+* Analyse the performance of the S&P500 economic sectors in periods of crisis (negative returns) from Jan 2003 to Jan 2023. Then, research what happened in those negative years and identify whether the affected sectors could recover after the crisis.
+* Explore the trends/performance of each sector for the last 5 years and identify Top 3 outperfroming sector and Top 3 underperforming sectors.
+* Identify the current weight of each sector on the S&P500, based on market capitalisation.
 
 -------------------
 ### Audience
-Our target audience is someone who is looking to invest in the stock market and would like to reduce the risk by having some insights about the behaviour of the economic sectors in the United States based on the S&P500. 
+Our target audience is someone who is looking to invest in the stock market and would like to reduce the risk by having some insights about the behaviour of the economic sectors based on the S&P500. 
 
 -------------------
 ### Timeframe and figures
-20 years of historical data (Monthly/Yearly Returns and Stock Price). From January 2003 to January 2023 (year today)
+Historical and current data of the S&P500 Index, such as price, returns, sectors, market capitalisation. From January 2003 to January 2023.
 
 -------------------
 ### Understanding S&P500
@@ -22,22 +27,22 @@ The S&P 500 Index, or Standard & Poor's 500 Index, is a market-capitalization-we
 -------------------
 ### Content
 1. What is the S&P500 and why it is important in the US stock market. 
-2. Trend of the S&P500 Stock Price per year. **Graph: Line plot** & **Regression Model**. Bonus calculator: What would have happend if you were invested $10,000 in this index 20 years ago? - How much you would have today?. Now, how muh you would have if you invested $10,000 20 years ago, plus you contributed an extra $500 per month over the 20 years?.
-3. Years of negative return of the S&P500 and its causes. **Graph: Bar chart (positive return format with green colour, negative return fromat with red colour)**.
-4. Analysis of the stock price of the economic sectors in periods of negative return. Compare year prior the crisis, year of the crisis, year after the crisis. Example: 2008 Housing Prices crisis, compare stock price per sector in 2007, 2008, 2009. Years of negative return identified 2008, 2015, 2018, 2022. **Graph: Horizontal Bars grouped by sector comparing the 3 years. **
-5. Tred of the stock price of each S&P500 economic sector per year. **Graph: Line plot**.
+2. Trend of the S&P500 average stock price from 2003 to 2023. Current price and prediction.  **Graph: Line plot** & **Regression Model**
+3. Years of positive (green) and negative (red) return of the S&P500. **Graph: Bar chart**.
+4. Stock price of the economic sectors in periods of negative return. Compare year prior the crisis, year of the crisis, year after the crisis. **Graph: Horizontal Bars grouped by sector comparing the 3 years. **
+5. Trend of the average stock price of each S&P500 economic sector per year. **Graph: Line plot**.
 6. Performance of the secotrs based on percentage of return in the last 5 years (2018 - 2020). **Graph: Pie Chart OR Line Plot**. Identify Top 3 outperforming sectors and Top 3 underperforming sectors.
-7. Current percentage participation by weitgh of market capitalisation of each sector in the S&P500 index (sector breakdown). **Graph: Pie Chart**. Group by sector based on the sum of market cap.
-
-BONUS: Correlation between the S&P500 returns, and inflation rate for goods and services (CPI) in the United States. **Graph: Scatter Plot** & **Statistics**
+7. Current percentage of participation by weitgh of each sector in the S&P500 index (sector breakdown based on market capitalisation). **Graph: Pie Chart**.
 
 -------------------
 ### Main Resources
 1. Info about S&P500: https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview
-2. Historical data:
-2.1 S&P 500 Index Historical Data:
+2. API to get stock price per symbol quotes: https://site.financialmodelingprep.com/developer/docs/stock-api/#Python
+3. API to get stock price per index (S&P500): https://twelvedata.com/
+4. Historical data.
+4.1 S&P 500 Index Historical Data:
 •	S&P 500 (SPX): https://au.investing.com/indices/us-spx-500-historical-data
-2.2. S&P 500 Sectors Historical Data:
+4.2. S&P 500 Sectors Historical Data:
 •	S&P 500 Information Technology (SPLRCT): https://au.investing.com/indices/s-p-500-information-technology-historical-data
 •	S&P 500 Health Care (SPXHC): https://au.investing.com/indices/s-p-500-health-care-historical-data
 •	S&P 500 Consumer Discretionary (SPLRCD): https://au.investing.com/indices/s-p-500-industrials-historical-data
@@ -49,9 +54,8 @@ BONUS: Correlation between the S&P500 returns, and inflation rate for goods and 
 •	S&P 500 Utilities (SPLRCU): https://au.investing.com/indices/s-p-500-utilities-historical-data
 •	S&P 500 Real Estate (SPLRCREC): https://au.investing.com/indices/s-p-500-real-estate-historical-data
 •	S&P 500 Telecom Services (SPLRCL): https://au.investing.com/indices/s-p-500-telecom-services-historical-data
-2.3. Explanation about each sector of the S&P 500: https://corporatefinanceinstitute.com/resources/valuation/the-sp-sectors/
-3. List of S&P500 Constituents/Companies: https://www.kaggle.com/datasets/alexanderxela/sp-500-companies
-4. For the bonus: USA Inflation CPI Rate https://www.rateinflation.com/inflation-rate/usa-historical-inflation-rate/
+5.Explanation about each sector of the S&P 500: https://corporatefinanceinstitute.com/resources/valuation/the-sp-sectors/
+6. List of S&P500 Constituents/Companies: https://www.kaggle.com/datasets/alexanderxela/sp-500-companies
 
 -------------------
 ### Some examples for the visualisations
@@ -61,8 +65,6 @@ BONUS: Correlation between the S&P500 returns, and inflation rate for goods and 
 4. For the 5 point of the content: https://www.stlouisfed.org/on-the-economy/2021/march/covid19-impacted-stock-performance-industry
 5. For the 6 point of the content: https://advisor.visualcapitalist.com/sp-performance-in-2020-by-sector/  OR https://www.spglobal.com/spdji/en/index-family/equity/us-equity/sp-sectors/#overview
 6. For the 7 point of the content: https://www.spglobal.com/spdji/en/indices/equity/sp-500/#data
-
-For the bonus: https://marketnews.com/sp500-pe-ratio-vs-cpi-inflation
 
 -------------------
 ### Other Resources 
@@ -85,20 +87,15 @@ For the bonus: https://marketnews.com/sp500-pe-ratio-vs-cpi-inflation
 |24 Jan, Tues | 2030 | Discuss the dataset/ information that we'll extract from the dataset/ use for our analysis | - |
 |25 Jan, Weds | 1900 | Finalise the Methodology and measure that we'll be using & distribute tasks amongst 4 member| - |
 |26 Jan, Thurs | - | - | - |
-|27 Jan, Fri to 29 Jan, Sun | Discuss among ourself | Data Cleaning and Merging Datasets | Christian & Jonathan |
-|30 Jan, Mon to 31 Jan, Tues | Discuss among ourself | Start Visualisation | Cindy & Mylene |
+|27 Jan, Fri to 29 Jan, Sun | Discuss among ourself | Data Cleaning and Merging Datasets | Jonathan |
+|30 Jan, Mon to 31 Jan, Tues | Discuss among ourself | Start Visualisation | ALL |
 |01 Feb, Weds | TBC | Analyse Data (Group) / write up Discussion and Summary, Create PPT | ALL |
 |02 Feb, Thurs | 1830 | Presentation Day | ALL |
 
 -------------------
 ### Task Distribution
-- Data Clean and Merge Datasets // Christian, Jonathan 
-- Data Visualisation - line graph (use this as reference; https://advisor.visualcapitalist.com/sp-performance-in-2020-by-sector/), bar chart, horizontal bar chart // Cindy & Mylene
+- Data Clean and Merge Datasets // Jonathan
+- Data Visualisation // all
 - Analysis of the data // all
 - Report Writing // all
 - Create powerpoint / slide preparation / Script writing // all
-
-* Introduction // TBA
-* Methadology // TBA
-* Discussion // TBA
-* Conclusion // TBA
