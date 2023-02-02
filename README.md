@@ -82,7 +82,7 @@ The S&P 500 Index, or Standard & Poor's 500 Index, is a market-capitalization-we
 -------------------
 ### Team Meetings
 |Meeting Dates | Meeting Time | Task List | Task Distribution |
-|-----|-----|----|
+|--|--|--|--|
 |23 Jan, Mon| 1830 | Source Dataset & Discuss the dataset | - |
 |24 Jan, Tues | 2030 | Discuss the dataset/ information that we'll extract from the dataset/ use for our analysis | - |
 |25 Jan, Weds | 1900 | Finalise the Methodology and measure that we'll be using & distribute tasks amongst 4 member| - |
