@@ -8,8 +8,8 @@ Looking at the historical stock price, returns, and other relevant information o
 
 * Analyse the S&P500 stock price performance from Jan 2003 to Jan 2023, then compare to today's price and run a trenline/regression model to predict price of the stock in 5 years from now.
 * Identify years of positive and negative return of the S&P500 from Jan 2003 to Jan 2023.
-* Analyse the performance of the S&P500 economic sectors in periods of crisis (negative returns) from Jan 2003 to Jan 2023. Then, research what happened in those negative years and identify whether the affected sectors could recover after the crisis.
-* Explore the trends/performance of each sector for the last 5 years and identify Top 3 outperfroming sector and Top 3 underperforming sectors.
+* Analyse the performance of the S&P500 economic sectors in periods of crisis (negative returns) from Jan 2003 to Jan 2023.
+* Explore growth of each sector for the last 5 years and identify Top 3 outperfroming sector and Top 3 underperforming sectors.
 * Identify the current weight of each sector on the S&P500, based on market capitalisation.
 
 -------------------
@@ -26,13 +26,12 @@ The S&P 500 Index, or Standard & Poor's 500 Index, is a market-capitalization-we
 
 -------------------
 ### Content
-1. What is the S&P500 and why it is important in the US stock market. 
+1. What is the S&P500 and why it is important in the US stock market?
 2. Trend of the S&P500 average stock price from 2003 to 2023. Current price and prediction.  **Graph: Line plot** & **Regression Model**
 3. Years of positive (green) and negative (red) return of the S&P500. **Graph: Bar chart**.
-4. Stock price of the economic sectors in periods of negative return. Compare year prior the crisis, year of the crisis, year after the crisis. **Graph: Horizontal Bars grouped by sector comparing the 3 years. **
-5. Trend of the average stock price of each S&P500 economic sector per year. **Graph: Line plot**.
-6. Performance of the secotrs based on percentage of return in the last 5 years (2018 - 2020). **Graph: Pie Chart OR Line Plot**. Identify Top 3 outperforming sectors and Top 3 underperforming sectors.
-7. Current percentage of participation by weitgh of each sector in the S&P500 index (sector breakdown based on market capitalisation). **Graph: Pie Chart**.
+4. Trend of the average stock price of each S&P500 economic sector per year. **Graph: Line plot**.
+5. Identify the growth of each sector of the S&P500 in the last 5 years. **Graph: Pie Chart OR Line Plot**. Identify Top 3 growth sectors and Bottom 3 growth sectors.
+6. Current percentage of participation by weight of each sector in the S&P500 index (sector breakdown based on market capitalisation). **Graph: Pie Chart**.
 
 -------------------
 ### Main Resources
